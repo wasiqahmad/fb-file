@@ -843,6 +843,26 @@ top: -4.2rem;
 margin-left: .5rem;
 margin-right: .5rem;
 }
+@media(max-width: 27.5em){       
+.responsive-plus{
+border: .25rem solid #fff;
+border-radius: 50%;
+position: relative;
+top: -4.2rem;
+margin-left: 0.1rem;
+margin-right: .7rem;
+}
+}
+@media(max-width: 25em){       
+.responsive-plus{
+border: .25rem solid #fff;
+border-radius: 50%;
+position: relative;
+top: -4.2rem;
+margin-left: -.2rem;
+margin-right: .8rem;
+}
+}
 .status-name{
 position: relative;
 top: -2rem;
