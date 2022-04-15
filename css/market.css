@@ -15,7 +15,20 @@ body{
     }
     }
 /* header */ 
- 
+@media(max-width:28.125em){    
+    .header-responsive{
+    margin-top: 0rem;
+    }
+}
+@media(max-width:26.25em){    
+    .header-responsive{
+    margin-top: -.4rem;
+    }
+}@media(max-width:24.375em){    
+    .header-responsive{
+margin-left: -.6rem;
+    }
+}
 .header{
     position: fixed;
     background-color: rgb(255, 255, 255);
@@ -28,17 +41,15 @@ height: 3.5rem;
 }
     
     .btn:focus{
-        box-shadow: none !important;
+    box-shadow: none !important;
     }
     @media(max-width:81.25em){    
         .header{
         position: fixed;
         background-color: rgb(255, 255, 255);
         z-index: 10;
-        /* margin-top: -.8%; */
         box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
         width: 100% !important;
-    /* padding-bottom: .5rem;  */
     }
     }
     @media(max-width:78.75em){    
@@ -46,35 +57,65 @@ height: 3.5rem;
         position: fixed;
         background-color: rgb(255, 255, 255);
         z-index: 10;
-        margin-top: -5rem !important;
+        /* margin-top: -5rem !important; */
         box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
         width: 100% !important;
-    /* padding-bottom: .5rem;  */
     }
     }
     @media(max-width:58.75em){    
     .header{
     position: fixed;
-    /* top: -.001rem; */
     background-color: rgb(255, 255, 255);
-    /* z-index: 10; */
-    margin-top: -5rem !important;
+    /* margin-top: -5rem !important; */
     box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
     width: 100% !important;
-    /* padding-bottom: .5rem;  */
     }
     }
     @media(max-width:31.25em){    
     .header{
     position: fixed;
-    /* top: -.001rem; */
     background-color: rgb(255, 255, 255);
     z-index: 10;
     margin-top: -.8%;
     box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
     width: 100% !important;
     padding-bottom: .5rem;
-    /* margin-left: -.5rem;  */
+    }
+    }
+    @media(max-width:28.125em){    
+    .header{
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+    margin-top: -10.6%;
+    box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
+    width: 100% !important;
+    padding-bottom: .5rem;
+    height: 6.2rem;
+    }
+    }
+    @media(max-width:26.5625em){    
+    .header{
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+    margin-top: -11.5%;
+    box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
+    width: 100% !important;
+    padding-bottom: .5rem;
+    height: 6.2rem;
+    }
+    }           
+    @media(max-width:24.5625em){    
+    .header{
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+    margin-top: -12.5%;
+    box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
+    width: 100% !important;
+    padding-bottom: .5rem;
+    height: 6.2rem;
     }
     }           
     a{
@@ -101,20 +142,20 @@ height: 3.5rem;
     color: rgb(161, 161, 161);
     }
             
-        @media(max-width:81.25em){        
-        .search-logo{
-        display: inline;
-        border-radius: 5rem;
-        background-color: rgb(241, 241, 252);
-        border: hidden;
-        position: relative;
-        top: -.1rem;
-        padding: .7rem;
-        margin: .4rem;
-        font-size: 96%;
-        color: rgb(161, 161, 161);
-        }
-        }
+    @media(max-width:81.25em){        
+    .search-logo{
+    display: inline;
+    border-radius: 5rem;
+    background-color: rgb(241, 241, 252);
+    border: hidden;
+    position: relative;
+    top: -.1rem;
+    padding: .7rem;
+    margin: .4rem;
+    font-size: 96%;
+    color: rgb(161, 161, 161);
+    }
+    }
         .search-bar{
         display: inline;
         cursor: pointer;
@@ -144,21 +185,44 @@ height: 3.5rem;
         margin-left: 8.7%;
         }
         }
+        @media(max-width:54.75em){    
+        .header-icon{
+        margin-left: 8.7%;
+        }
+        }
+        @media(max-width:47.5em){    
+        .header-icon{
+        margin-left: 5.7%;
+        position: relative;
+    }
+        }
+        @media(max-width:45.125em){    
+        .header-icon{
+        margin-left: 3.7%;
+        }
+        }
+        @media(max-width:23.75em){    
+        .header-icon{
+        margin-left: 5.7%;
+        }
+        }
         .home{
         margin-left: 4% !important;
         }
 
          .navbar-market{
-        color: #1877F2;
-        border-radius: 50%;
         position: relative;
-        top: -.1rem;
-        font-size: 1.5rem;
+        top: -.3rem;
+        font-size: 2rem;
         margin-left: 2.7%;
         padding: .9% 2%;
         cursor: pointer;
-    
          }
+        @media(max-width:43.75em){        
+        .navbar-market{
+        display: none;
+        }
+        }
          .icons{
         margin-top:-.7rem;
         font-size: 1.5rem;
@@ -193,8 +257,7 @@ height: 3.5rem;
         }
         }
         
-.group{
-    
+    .group{
     font-size: 1.5rem;
     /* padding: .9% 2%; */
     font-size: 1rem;
@@ -202,11 +265,18 @@ height: 3.5rem;
     cursor: pointer;
     position: relative;
     top: -.15rem;
-border: 1px solid #000;    
-} 
+    border: 1px solid #000;    
+    } 
+    @media(max-width:43.75em){    
+    .group{
+    display: none;    
+    }
+    }
 .navbar-group-icon{
     margin-top:-.7rem;
     font-size: 1.5rem;
+    position: relative;
+    left: .1rem;
     margin-left: 2.7%;
     padding: .6% 2%;
     cursor: pointer;    
@@ -249,91 +319,7 @@ border-radius: .5rem;
         cursor: pointer;
         }
         }
-        .header-icons{
-        font-size: 1.5rem;
-        margin-left: 7%;
-        cursor: pointer;
-        display: inline;
-        }
-        @media(max-width:54.75em){    
-        .header-icons{
-        font-size: 1.5rem;
-        margin-left: 14%;
-        cursor: pointer;
-        display: inline;
-        }
-        }
-        @media(max-width:46.875em){    
-        .header-icons{
-        font-size: 1.5rem;
-        margin-left: 18%;
-        cursor: pointer;
-        display: inline;
-        }
-        }
-        @media(max-width:43.75em){    
-        .header-icons{
-        font-size: 1.5rem;
-        margin-left: 52%;
-        cursor: pointer;
-        display: inline;
-        }
-        }
-        @media(max-width:31.25em){    
-        .header-icons{
-        font-size: 1.5rem;
-        margin-left: 31%;
-        cursor: pointer;
-        display: inline;
-        }
-        }
-        @media(max-width:29.375em){    
-        .header-icons{
-        margin-left: 22%;
-        }
-        }@media(max-width:28.125em){    
-            .header-icons{
-            font-size: 1.5rem;
-            margin-left: 0%;
-            cursor: pointer;
-            display: inline;
-            margin-left: -23%;
-            position: relative;
-            top: .2rem;
-            }
-            }
-            @media(max-width:26.625em){    
-            .header-icons{
-            margin-left: -25%;
-            }
-            }
-            @media(max-width:25.5em){    
-            .header-icons{
-            margin-left: -28%;
-            }
-            }
-            @media(max-width:24.125em){    
-            .header-icons{
-            margin-left: -31%;
-            }
-            }
-        @media(max-width:22.5em){    
-        .header-icons{
-        margin-left: -36%;
-        }
-        }
-        @media(max-width:21.725em){    
-        .header-icons{
-        margin-left: -40%;
-        }
-        }
-        @media(max-width:20.725em){    
-        .header-icons{
-        margin-left: -43%;
-        }
-        }
-        
-        .group-line{
+       .group-line{
         width: 6.8rem;
         height: .2rem !important;
         background-color: #1877F2 !important;
@@ -341,73 +327,187 @@ border-radius: .5rem;
         color: #1877F2 !important;
         border: hidden;
         left: 46%;
-position: relative;
-top: -1.5rem;
-        opacity: 1;
+        position: relative;
+        top: -1.5rem;
+            opacity: 1;
+            }
+            @media(max-width:81.25em){    
+            .group-line{
+            width: 7rem;
+            height: .15rem;
+            background-color: #5089f3;
+            position: absolute;
+            top: 3.7rem;
+            color: #5089f3;
+            border: hidden;
+            left: 47.2%;
+            margin-top: -.3rem;
+            }
+            }
+            @media(max-width:75em){    
+            .group-line{
+            width: 6rem;
+            height: .15rem;
+            background-color: #0b2b68;
+            position: absolute;
+            top: 3.5rem;
+            color: #042562;
+            border: hidden;
+            left: 48%;
+            margin-top: -.15rem;
+            }
+            }
+            @media(max-width:66.25em){    
+            .group-line{
+            left: 48.2%;
+            }
+            }
+            @media(max-width:62.75em){    
+            .group-line{
+            left: 42.5%;
+            }
+            }
+            @media(max-width:59.375em){    
+            .group-line{
+            left: 43.5%;
+            }
+            }
+            /* @media(max-width:54.75em){    
+            .group-line{
+            left: 40.5%;
+            }
+            } */
+            @media(max-width:50em){    
+            .group-line{
+            width: 5rem;
+            height: .15rem;
+            background-color: #0b2b68;
+            position: absolute;
+            top: 3.5rem;
+            color: #042562;
+            border: hidden;
+            left: 44%;
+            margin-top: -.15rem;
+                }
+            }
+            @media(max-width:47.5em){    
+            .group-line{
+                left: 42.2%;
+            }
+            }
+            @media(max-width:43.75em){    
+            .group-line{
+                display: none;
+            }
+            }
+           
+        .header-icons{
+        font-size: 1.5rem;
+        margin-left: 7.3%;
+        cursor: pointer;
+        display: inline;
         }
-        @media(max-width:81.25em){    
-        .group-line{
-        width: 7rem;
-        height: .15rem;
-        background-color: #5089f3;
-        position: absolute;
-        top: 3.7rem;
-        color: #5089f3;
-        border: hidden;
-        left: 47.2%;
-        margin-top: -.3rem;
+        @media(max-width:82.5625em){    
+        .header-icons{
+        font-size: 1.5rem;
+        margin-left: 6.5%;
+        cursor: pointer;
+        display: inline;
         }
         }
-        @media(max-width:75em){    
-        .group-line{
-        width: 6rem;
-        height: .15rem;
-        background-color: #0b2b68;
-        position: absolute;
-        top: 3.7rem;
-        color: #042562;
-        border: hidden;
-        left: 48.2%;
-        margin-top: -.15rem;
+        @media(max-width:70em){    
+        .header-icons{
+        font-size: 1.5rem;
+        margin-left: 5.5%;
+        cursor: pointer;
+        display: inline;
         }
         }
-        @media(max-width:66.25em){    
-        .group-line{
-        left: 48.2%;
+        @media(max-width:64.125em){    
+        .header-icons{
+        font-size: 1.5rem;
+        margin-left: 4.5%;
+        cursor: pointer;
+        display: inline;
         }
-        }
-        @media(max-width:62.75em){    
-        .group-line{
-        left: 43.5%;
-        }
-        }
-        @media(max-width:59.375em){    
-        .group-line{
-        left: 44.5%;
-        }
-        }
-        @media(max-width:54.75em){    
-        .group-line{
-        left: 40.5%;
-        }
-        }
-        @media(max-width:50em){    
-        .group-line{
-        left: 36.5%;
-        }
-        }
-        @media(max-width:46.75em){    
-        .group-line{
-            height: .2rem;
-        left: 35.7%;
+        }                
+        @media(max-width:53.625em){    
+        .header-icons{
+        font-size: 1.5rem;
+        margin-left: 2%;
+        cursor: pointer;
+        display: inline;
         }
         }
         @media(max-width:43.75em){    
-        .group-line{
-            display: none;
+        .header-icons{
+        font-size: 1.5rem;
+        margin-left: 36%;
+        cursor: pointer;
+        display: inline;
         }
         }
-       
+        @media(max-width:39.25em){    
+        .header-icons{
+        font-size: 1.5rem;
+        margin-left: 31%;
+        cursor: pointer;
+        display: inline;
+        }
+        }
+        @media(max-width:35.875em){    
+        .header-icons{
+        margin-left: 22%;
+        }
+        }
+        @media(max-width:31.125em){    
+            .header-icons{
+            font-size: 1.5rem;
+            margin-left: 0%;
+            cursor: pointer;
+            display: inline;
+            margin-left: 14%;
+            position: relative;
+            top: .2rem;
+            }
+            }
+        @media(max-width:28.125em){    
+        .header-icons{
+        font-size: 1.5rem;
+        cursor: pointer;
+        display: inline;
+        margin-left: -32%;
+        position: relative;
+        }
+        }
+        @media(max-width:26.625em){    
+            .header-icons{
+            font-size: 1.5rem;
+            cursor: pointer;
+            display: inline;
+            margin-left: -38%;
+            position: relative;
+            }
+            }
+        @media(max-width:24.75em){    
+            .header-icons{
+            font-size: 1.5rem;
+            cursor: pointer;
+            display: inline;
+            margin-left: -44%;
+            position: relative;
+            }
+            }
+            @media(max-width:23.75em){    
+                .header-icons{
+                font-size: 1.5rem;
+                cursor: pointer;
+                display: inline;
+                margin-left: -47%;
+                position: relative;
+                }
+                }
+        
         .owner-name{
         display: inline;
         font-size: .95rem;
@@ -441,38 +541,50 @@ top: -1.5rem;
         
     .header-2-icon{
         border-radius: 50%;
-        background-color: rgb(233, 233, 255);
-        padding: .6rem 1.95rem .6rem .6rem;
+        background-color: rgb(229, 229, 255);
+        padding: .65rem 1.9rem .65rem .65rem;
         cursor: pointer;
-        margin-right: -.5rem;    
+        margin-right: -.5rem;
+        margin-left: -.1rem;    
         font-size: 1.3rem;
         width: 2.2rem;
        position: relative;
-       top: -.4rem !important;        
+       top: -.35rem !important;        
+}
+.header-2-icon-plus{
+    border-radius: 50%;
+    background-color: rgb(229, 229, 255);
+    padding: .55rem .75rem .55rem .75rem;
+    cursor: pointer;
+    font-size: 1.3rem;
+    width: 2.2rem;
+    position: relative;
+    top: -.25rem !important;        
+    left: -.5rem;
 }
     .header-3-icon{
         border-radius: 50%;
-        background-color: rgb(233, 233, 255);
-        padding: .66rem 1.8rem .66rem .66rem;
+        background-color: rgb(229, 229, 255);
+        padding: .68rem 1.8rem .68rem .66rem;
         cursor: pointer;
-        margin-left: -.5rem;
+        margin-left: -.45rem;
         margin-right: -.5rem;    
         font-size: 1.2rem;
-        width: 2.2rem;
+        width: 2rem;
         position: relative;
-        top: -.4rem;
+        top: -.35rem;
     }
     .header-4-icon{
         border-radius: 50%;
-        background-color: rgb(233, 233, 255);
-        padding: .3rem 1.6rem .9rem .8rem;
+        background-color: rgb(229, 229, 255);
+        padding: .5rem 1.65rem .8rem .9rem;
         cursor: pointer;
-        margin-left: -.5rem;
+        margin-left: -.4rem;
         margin-right: -.5rem;    
         font-size: 1.2rem;
         width: 2.2rem;
         position: relative;
-        top: -.4rem;
+        top: -.35rem;
 
     }
         @media(max-width:68.75em){    
@@ -860,16 +972,13 @@ top: -1.5rem;
         }
         @media(max-width:28.125em){    
             .responsive-type{
-            margin-top: 2.5rem;
             margin-left: 110% !important;
-            /* position: relative; */
-            
-            /* left: -10.1rem; */
-            }
+        margin-top: 3.2rem;    
+        }
             }
             @media(max-width:28.125em){    
                 .responsive-type-2{
-                margin-top: 2.5rem;
+                margin-top: 3.2rem;
                 margin-left: 240% !important;
                 /* position: relative; */
                 /* left: -6.6rem; */
@@ -877,7 +986,7 @@ top: -1.5rem;
                 }
                 @media(max-width:28.125em){    
                     .responsive-type-3{
-                    margin-top: 2.5rem;
+                    margin-top: 3.2rem;
                     margin-left: 350% !important;
                     /* position: relative;
                     left: -3.2rem; */
@@ -886,7 +995,7 @@ top: -1.5rem;
             @media(max-width:28.125em){    
             .responsive-plus{
             position: relative;
-            top: 1.35rem;
+            top: 1.4rem !important;
                 
             }
             }
@@ -957,6 +1066,33 @@ position: relative;
 top: -.7rem;
 cursor: pointer;
 font-size: 1.3rem;
+}
+@media(max-width:78.75em){    
+.setting{
+    margin-left: 40%;
+    background-color: rgb(241, 241, 252);
+    padding: .5rem .5rem .4rem .5rem;
+    border-radius: 50%;
+    position: relative;
+    top: -.7rem;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+}
+@media(max-width:70.625em){    
+.setting{
+    margin-left: 35%;
+}
+}
+@media(max-width:66.25em){    
+.setting{
+    margin-left: 30%;
+}
+}
+@media(max-width:60.625em){    
+.setting{
+    margin-left: 24%;
+}
 }
 .search-icon{
     width: 1.4rem;
@@ -1056,9 +1192,46 @@ color: #000;
     width: .9rem;
     margin-left: 68.4%;
 }
+
+@media(max-width:76.625em){    
+.sidebar-right-arrow-1{
+    width: .9rem;
+    margin-left: 64.4%;
+}
+}
+@media(max-width:68.75em){    
+.sidebar-right-arrow-1{
+    width: .9rem;
+    margin-left: 59.2%;
+}
+}
+@media(max-width:61.375em){    
+.sidebar-right-arrow-1{
+    width: .9rem;
+    margin-left: 54.2%;
+}
+}
 .sidebar-right-arrow-2{
     width: .9rem;
     margin-left: 67%;
+}
+@media(max-width:76.625em){    
+.sidebar-right-arrow-2{
+    width: .9rem;
+    margin-left: 63.2%;
+}
+}
+@media(max-width:68.75em){    
+.sidebar-right-arrow-2{
+    width: .9rem;
+    margin-left: 58.2%;
+}
+}
+@media(max-width:61.375em){    
+.sidebar-right-arrow-2{
+    width: .9rem;
+    margin-left: 52.7%;
+}
 }
 .name-3{
 width: 91%;
@@ -1210,7 +1383,7 @@ border-bottom: 1px solid #5089f3;
 @media(max-width:68.75em){       
 .Location-faisalabad{
 position: absolute;
-top: 4.8rem;
+top: 5.2rem;
 left: 83%;
 color: #5089f3;
 cursor: pointer;
@@ -1244,8 +1417,8 @@ left: 65%;
 @media(max-width:28.125em){       
     .Location-faisalabad{
 /* position: relative; */
-top: 0rem;
-margin-top: 7rem !important;
+/* top: 0rem; */
+margin-top: 3rem !important;
     }
     }
 @media(max-width:27.5em){       
@@ -1288,6 +1461,13 @@ border-bottom: 1px solid #5089f3;
     margin-top: -.1rem;
 margin-left: 1.7rem !important;
 }
+
+@media(max-width:40.625em){       
+    .first-line-card{
+    margin-top: -.1rem;
+    margin-left: .7rem !important;
+    }
+        }
 .cards{
     width: 30.6%;
     cursor: pointer;
@@ -1325,20 +1505,10 @@ margin-left: 1.7rem !important;
     margin-top: 2.6rem;
     }
     }
-    /* .last-head{
-        display: none;
-    } */
-@media(max-width:40.625em){       
-    .row-last-responsive{
-        position: relative;
-        top: -1.3rem;
-    }   
-    }
-.card-pic{
+   .card-pic{
     width: 100%;
-    /* width: 19rem; */
     border-radius: .4rem;
-}
+    }
 .type{
     text-transform: uppercase;
     color: black;
