@@ -147,7 +147,7 @@ left: .2rem;
     top: -.5rem;
     }
 }
-@media(max-width:78.4375em){
+@media(max-width:79.125em){
     .home{
     color: #1877F2;
     font-size: 1.5rem;
@@ -157,7 +157,7 @@ left: .2rem;
     }
 }
 
-@media(max-width:76.6875em){
+@media(max-width:77.3125em){
     .home{
     color: #1877F2;
     font-size: 1.5rem;
@@ -495,6 +495,7 @@ width: 1.75rem;
 border-radius: 5rem;
 position: relative;
 top: -.7rem;
+left: .3rem;
 margin-left: 6.5%;
 }
 .my-name{
@@ -508,7 +509,9 @@ margin-left: .2rem;
 margin-right: -.3rem;
 
 }
-
+.wasiq{
+margin-left: -.8rem;
+}
 @media(max-width: 82.5625em){
 .wasiq{
 margin-left: -1.5%;
@@ -520,87 +523,87 @@ margin-left: -1.5%;
 }
 }
 
-.dropdown{    
+.external-dropdown{    
 position: relative;
 top: -.7rem;
 border-radius: 50%;
-background-color: rgb(229, 229, 252);
+background-color: rgb(233, 233, 242);
 font-size: 1rem !important;
 padding: .3rem .1rem;
 margin-left: .28%;
 }
-.dropdown-3{    
-    position: relative;
-    top: -.7rem;
-    border-radius: 50%;
-    background-color: rgb(229, 229, 252);
-    font-size: 1rem !important;
-    padding: .25rem .18rem;
-    margin-left: .28%;
-    }
-    .dropdown-3:hover{
-    background-color: rgb(217, 217, 252);
-    }
-    @media(max-width: 28.75em){     
-   .dropdown-3{    
-    position: relative;
-    top: -.7rem;
-    border-radius: 50%;
-    background-color: rgb(229, 229, 252);
-    font-size: 1rem !important;
-    padding: .25rem .18rem;
-    margin-left: 7%;
-    }
-    }
-.dropdown-last{    
-    position: relative;
-    top: -.65rem;
-    border-radius: 50%;
-    background-color: rgb(229, 229, 252);
-    font-size: 1rem !important;
-    padding: .1rem .28rem .4rem .28rem;
-    margin-left: .28%;
-}   
-
-    @media(max-width: 28.75em){     
-    .dropdown-last{
-    position: relative;
-    top: -.65rem;
-    border-radius: 50%;
-    background-color: rgb(229, 229, 252);
-    font-size: 1rem !important;
-    padding: .1rem .28rem .4rem .28rem;
-    margin-left: 7%;
-    }
-    }
-    .dropdown-last:hover{
-background-color: rgb(217, 217, 252);
-}
 @media(max-width: 28.75em){    
-.dropdown{    
+.external-dropdown{    
     position: relative;
     /* top: -.5rem; */
     border-radius: 50%;
-    background-color: rgb(229, 229, 252);
+    background-color: rgb(233, 233, 242);
     font-size: 1rem !important;
     padding: .25rem .1rem;
     margin-left: 7% !important;
     }
     }
     @media(max-width: 26em){    
-    .dropdown{    
+    .external-dropdown{    
     margin-left: 6%;
     }
     }
     @media(max-width: 24.75em){    
-    .dropdown{    
+    .external-dropdown{    
     margin-left: 5%;
     }
     }
-.dropdown:hover{
+.external-dropdown:hover{
     background-color: rgb(217, 217, 252);
 }
  
+.external-dropdown-3{    
+    position: relative;
+    top: -.7rem;
+    border-radius: 50%;
+    background-color: rgb(233, 233, 242);
+    font-size: 1rem !important;
+    padding: .25rem .18rem;
+    margin-left: .28%;
+    }
+    .external-dropdown-3:hover{
+    background-color: rgb(217, 217, 252);
+    }
+    @media(max-width: 28.75em){     
+   .external-dropdown-3{    
+    position: relative;
+    top: -.7rem;
+    border-radius: 50%;
+    background-color: rgb(233, 233, 242);
+    font-size: 1rem !important;
+    padding: .25rem .18rem;
+    margin-left: 7%;
+    }
+    }
+.external-dropdown-last{    
+    position: relative;
+    top: -.65rem;
+    border-radius: 50%;
+    background-color: rgb(233, 233, 242);
+    font-size: 1rem !important;
+    padding: .1rem .28rem .4rem .28rem;
+    margin-left: .28%;
+}   
+
+    @media(max-width: 28.75em){     
+    .external-dropdown-last{
+    position: relative;
+    top: -.65rem;
+    border-radius: 50%;
+    background-color: rgb(233, 233, 242);
+    font-size: 1rem !important;
+    padding: .1rem .28rem .4rem .28rem;
+    margin-left: 7%;
+    }
+    }
+    .external-dropdown-last:hover{
+background-color: rgb(217, 217, 252);
+}
 .all-dropdown{
 margin-left: 1%;
 }
@@ -663,6 +666,7 @@ margin-left: 1.6% !important;
 @media(max-width: 35.6875em){    
 .all-dropdown{    
     margin-left: 36% !important;
+    
     }
     }
 @media(max-width: 33.8125em){    
@@ -696,7 +700,358 @@ top: 2.1rem;
 margin-left: -20% !important;
     }
     }      
+
+        /*internal Dropdown */
+        .dropdown{
+            padding: .5rem 1rem;
+            }
+            .dropdown:hover{
+            cursor: pointer;
+            }
+            .dropdown-search{
+            border-radius: 5rem;
+            background-color: rgb(241, 241, 252);
+            border: hidden;
+            padding: .5rem;
+            padding-left: .5rem;
+            padding-right: 9rem;
+            cursor: pointer;
+            margin-top: .4rem;
+            }
+            .dropdown-search:hover{
+            background-color: rgb(227, 227, 253);
+            }
+            .social{
+            margin-top: 1rem;
+            margin-left: .4rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 600;
+            font-size: 120%;
+            cursor: text;
+            }
+            .menu{
+            padding: .4rem 1rem;
+            padding-bottom: -.3rem !important;
+            border-radius: .5rem;
+            }
+            .menu:hover{
+            background-color: rgb(241, 241, 252);
+            }
+            .icon-friend{
+            color: #4d96f5;
+            font-size: 140%;
+            position: relative;
+            top: .4rem;
+            }
+            .campus{
+            display: inline;
+            color: black;
+            font-weight: 600;
+            padding-left: .5rem;
+            margin-bottom: 0%;
+            }
+            .information{
+                font-size: 80%;
+                margin-left: 12%;
+                margin-bottom: 0%;
+            }
+            .dropdown-flag{
+            color: rgb(255, 136, 0);
+            }
+            .dropdown-group{
+            background-color: #1877F2;
+            border-radius: 50%;
+            color: #fff;
+            padding: .5rem;
+            font-size: 95%;
+            margin-left: -.4rem;
+            }
+            .menu-messenger{
+                padding: 0 1rem;
+                padding-bottom: .3rem !important;
+                border-radius: .5rem;
+                margin-top: 1rem;
+            }
+            .menu-messenger:hover{
+            background-color: rgb(241, 241, 252);
+            }
+            .dropdown-Messenger{
+                font-size: 150%;
+                color: black;
+                font-weight: 600;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                display: inline;
+            }
+            .dotes{
+                margin-left: 14%;
+                padding: .6rem;
+                border-radius: 50%;
+            }
+            .dotes:hover{
+            background-color: rgb(235, 235, 253); 
+            }
+            .messenger-icon{
+                margin-left: 1%;
+                padding: .6rem;
+                border-radius: 50%;
+            }
+            .messenger-icon:hover{
+            background-color: rgb(235, 235, 253); 
+            }
+            .messenger-dp{
+                width: 3rem;
+                border-radius: 50%;
+                margin-left: -.5rem;
+                /* margin-top: 1rem; */
+                display: inline;
+                position: relative;
+                top: 1rem;
+                /* left: .5rem; */
+            }
+            .dropdown-dp-name{
+                color: black;
+                margin-top: -2rem;
+                margin-left: 3rem;
+                margin-bottom: 0%;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .messenger-information{  
+            font-size: 80%;
+            margin-left: 15%;
+            margin-bottom: 0%;
+            }
             
+            .menu-messenger-2{
+                padding: 0 1rem;
+                padding-bottom: .3rem !important;
+                border-radius: .5rem;
+                /* margin-top: 1rem; */
+            }
+            .menu-messenger-2:hover{
+            background-color: rgb(241, 241, 252);
+            }
+            .notification{
+                /* display: hidden !important; */
+            width: 20rem;
+            }
+            .arrow{
+            width: 24rem;
+            }
+            .profiles{
+                /* font-size: 90%; */
+                width: 22.7rem;
+                margin: auto;
+            padding-bottom: .01rem;
+            border-radius: .5rem;
+            }
+            .profiles:hover{
+            background-color: rgb(235, 235, 253);
+            }
+            .dropdown-pic{
+                width: 3.5rem;
+                border-radius:50%;
+                display: inline;
+                margin-left: .5rem;
+            position: relative;
+            top: .6rem;
+            }
+            .my-name{
+                display: inline;
+                margin-left: .5rem;
+                margin-bottom: 0%;
+            }
+            .profile{
+            margin-left: 5rem;
+            margin-top: -1.3rem;
+            color: rgb(71, 66, 66);
+            }
+            .dropdown-line{
+                width: 90%;
+                margin: auto;
+                margin-top: .5rem ;
+            margin-bottom: .5rem;
+            }
+            .dropdown-msg{
+            padding: .5rem;
+            padding-bottom: .1rem;
+            width: 95%;
+            margin: auto;
+            border-radius: .5rem;
+            position: relative;
+            }
+            .dropdown-msg:hover{
+            background-color: rgb(245, 245, 255);
+            }
+            .dropdown-msg-2{
+            padding: 1rem;
+            /* padding-bottom: .1rem; */
+            width: 95%;
+            margin: auto;
+            border-radius: .5rem;
+            position: relative;
+            }
+            .dropdown-msg-2:hover{
+            background-color: rgb(245, 245, 255);
+            
+            }
+                
+            .msg{
+            display: inline;
+            font-size: 1rem;
+            padding: .7rem;
+            border-radius: 50%;
+            position: relative;
+            top: .5rem;
+            left: .3rem;
+            background-color: rgb(224, 224, 255);
+            }
+            .msg-2{
+            display: inline;
+            font-size: 1.4rem;
+            padding: .4rem ;
+            border-radius: 50%;
+            position: relative;
+            /* top: .5rem; */
+            left: 0rem;
+            background-color: rgb(224, 224, 255);
+            }
+            .Direction{
+                margin-left: 8rem;
+                font-size: 1.5rem;
+            color: rgb(100, 100, 100);
+            }
+            .Direction-1{
+                margin-left: 8.5rem;
+                font-size: 1.5rem;
+            color: rgb(100, 100, 100);
+            }
+            .Direction-2{
+                margin-left: 5.5rem;
+                font-size: 1.5rem;
+            color: rgb(100, 100, 100);
+            }
+            .Direction-3{
+                margin-left: 11.5rem;
+                font-size: 1.5rem;
+            color: rgb(100, 100, 100);
+            }
+            .feedback{
+            margin-top: 10rem;
+            margin-bottom: 0;
+            display: inline;
+            margin-left: 1.3rem;
+            position: relative;
+            padding-top: 2rem;
+            }
+            .feedback-2{
+            margin-top: 10rem;
+            margin-bottom: 0;
+            display: inline;
+            margin-left: .5rem;
+            position: relative;
+            padding-top: 2rem;
+            }
+            
+            .feedback-help{
+            margin-left: 4rem;
+            font-size: 85%;
+            color: rgb(95, 90, 90);
+            }
+            .menu-notification{
+                margin-top: 1.7rem;
+                padding: 0 1rem;
+                padding-bottom: .3rem !important;
+                border-radius: .5rem;
+                width: 105%;
+                margin-left: -.5rem;
+            }
+            .menu-notification:hover{
+            background-color: rgb(241, 241, 252);
+            }
+            .menu-notification-2{
+                padding: 0 1rem;
+                padding-bottom: .3rem !important;
+                border-radius: .5rem;
+                width: 105%;
+                margin-left: -.5rem;
+            }
+            .menu-notification-2:hover{
+            background-color: rgb(241, 241, 252);
+            }
+            .notifi{
+                font-size: 1.5rem;
+            display: inline;
+            color: black;
+            font-weight: bolder;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            cursor: text;
+            }
+            .notification-dotes{
+            padding: .5rem;
+            border-radius: 50%;
+            font-size: 1.1rem;
+            display: inline;
+            margin-left: 40%;
+            color: rgb(63, 59, 59);
+            }
+            .notification-dotes:hover{
+            background-color: rgb(231, 231, 255);
+            }
+            .all{
+            background-color: rgb(232, 247, 248);
+            border-radius: 50%;
+            /* width: 1rem; */
+            padding: .4rem .6rem;
+            text-decoration: none;
+            display: inline;
+            position: relative;
+            top: .7rem;
+            left: -2rem;
+            color:#1877F2;
+            /* margin-bottom: .5rem; */
+            }
+            .all:hover{
+            background-color: rgb(213, 252, 255);
+            }
+            .unread{
+                border-radius: 1rem;
+                padding: .4rem .7rem;
+                background-color: rgb(235, 235, 250);
+                display: inline;
+                position: relative;
+                top: .7rem;
+                left: -2rem;
+                font-weight: 600;
+            }
+            .unread:hover{
+                background-color: rgb(224, 224, 255);
+            }
+            .new{
+                margin-top: 1.8rem;
+                cursor: text !important;
+                margin-bottom: 0 !important;
+                /* display:block; */
+                float: left;
+                position: relative;
+                top: 1.4rem;
+                font-size: 1.2rem;
+                font-weight: 600;
+            
+            }
+            .see-all{
+                position: relative;
+                top: 1.6rem;
+                left: 70%;
+                font-weight: 600;
+            color: #1877F2;
+            padding: .2rem 0rem;
+                /* display: inline; */
+                /* float: right; */
+            /* width: 5rem; */
+            }
+            .see-all:hover{
+                background-color: rgb(227, 227, 253);
+            }            
 .btn{
     font-size: 1.1rem !important;
 }
@@ -704,7 +1059,12 @@ margin-left: -20% !important;
 /* sidebar */
 .sidebar{
     position: fixed;
-width: 25%;
+width: 22%;
+max-height: 100%;
+overflow-y:hidden;
+}
+.sidebar:hover{
+overflow-y: auto;
 }
 
 @media(max-width:68.75em){   
@@ -712,6 +1072,8 @@ width: 25%;
         position: fixed;
     width: 29%;
     display: none;
+    max-height: 100%;
+    overflow-y: auto;
     }
         }
 .sidebar-pic{
@@ -925,7 +1287,7 @@ margin-left: 17%;
 }
 
 @media(max-width:38.75em){       
-    .wasiq-status{
+.wasiq-status{
 position: relative;
 left: 13.5%;
     }
@@ -2072,17 +2434,16 @@ border-bottom:1px solid rgb(194, 191, 191) ;
 
 /* right side */ 
 
-
 .right-side{
-    width: 25%;
-    position: fixed;
-    margin-left: 73%;
-    margin-top: 5rem;
-    left: 4.2rem;
+left: 4rem;
+width: 23%;
+position: fixed;
+margin-left: 73%;
+margin-top: 5rem !important;
+left: 4rem;
 }
 
-
- @media(max-width:79.75em){           
+@media(max-width:79.75em){           
     .right-side{
     width: 25%;
     position: fixed;
@@ -2128,15 +2489,8 @@ position: relative;
 top: -.22rem;
 }
 
-/* @media(max-width:66.875em){               
-.contact-icons{
-margin-left: 13%;
-color: rgb(85, 84, 84);
-font-size: 1rem;
-}
-} */
 .contact-icon{
-margin-left: 3%;
+margin-left: 3% !important;
 padding: .4rem;
 border-radius: 50%;
 
